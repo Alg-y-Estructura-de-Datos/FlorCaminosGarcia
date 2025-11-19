@@ -1,0 +1,1 @@
+/*Verificar si lista está vacía*/
