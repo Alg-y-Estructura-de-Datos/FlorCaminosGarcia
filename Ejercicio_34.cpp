@@ -1,0 +1,1 @@
+/*Buscar elemento desde el inicio*/

@@ -1,0 +1,3 @@
+/*Copiar una lista enlazada donde cada nodo tiene un puntero 
+adicional que puede apuntar a cualquier nodo de la lista o
+ a NULL.*/

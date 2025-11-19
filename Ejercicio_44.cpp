@@ -1,0 +1,1 @@
+/*Verificar si lista circular tiene ciclo (siempre true)*/
