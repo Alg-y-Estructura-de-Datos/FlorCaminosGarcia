@@ -22,5 +22,10 @@ int main()
     // En una lista circular siempre hay ciclo
     cout << "La lista circular siempre tiene ciclo." << endl;
 
+    for (int i = 0; i < n; i++)
+    {
+        cout << lista.getDato(i) << endl;
+    }
+
     return 0;
 }

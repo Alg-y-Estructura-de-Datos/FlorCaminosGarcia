@@ -1,5 +1,6 @@
 /*Encontrar elemento en lista circular*/
 #include <iostream>
+#include <vector>
 #include "Lista/CircList.h"
 
 using namespace std;
@@ -7,7 +8,8 @@ using namespace std;
 int main()
 {
     CircList<int> lista;
-    int n, dato, pos;
+    int n, dato;
+    vector<int> posiciones;
 
     cout << "Ingrese la cantidad de elementos a agregar: ";
     cin >> n;
@@ -26,13 +28,22 @@ int main()
     {
         if (lista.getDato(i) == dato)
         {
-            pos = i;
-            break;
+            posiciones.push_back(i);
         }
-        else
+    }
+
+    if (!posiciones.empty())
+    {
+        cout << "Elemento encontrado en " << posiciones.size() << " posicion(es): ";
+        for (int pos : posiciones)
         {
-            pos = -1;
+            cout << pos << " ";
         }
+        cout << endl;
+    }
+    else
+    {
+        cout << "Elemento no encontrado" << endl;
     }
 
     return 0;

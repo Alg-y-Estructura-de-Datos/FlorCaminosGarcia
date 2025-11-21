@@ -6,12 +6,15 @@ entonces los elementos finales permanecen como están.*/
 
 using namespace std;
 
-void rotarEnGrupos(CircList<int>& lista, int k) {
+void rotarEnGrupos(CircList<int> &lista, int k)
+{
     int n = lista.getTamanio();
-    for (int i = 0; i < n; i += k) {
+    for (int i = 0; i < n; i += k)
+    {
         int left = i;
         int right = min(i + k - 1, n - 1);
-        while (left < right) {
+        while (left < right)
+        {
             int temp = lista.getDato(left);
             lista.insertar(left, lista.getDato(right));
             lista.insertar(right, temp);
@@ -29,7 +32,8 @@ int main()
     cout << "Ingrese la cantidad de elementos para la lista: ";
     cin >> n;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cout << "Ingrese el elemento " << i + 1 << ": ";
         cin >> dato;
         lista.insertarUltimo(dato);
@@ -40,8 +44,9 @@ int main()
 
     rotarEnGrupos(lista, k);
 
-    cout << "Lista rotada en grupos de tamaño " << k << ": ";
-    for (int i = 0; i < lista.getTamanio(); i++) {
+    cout << "Lista rotada en grupos de tamanio " << k << ": ";
+    for (int i = 0; i < lista.getTamanio(); i++)
+    {
         cout << lista.getDato(i) << " ";
     }
 

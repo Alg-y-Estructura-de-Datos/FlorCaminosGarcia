@@ -17,7 +17,7 @@ int main()
     int quantum = 2; // Tiempo asignado a cada proceso
     int tiempoTotal = 10; // Tiempo total de simulación
 
-    cout << "Simulación de proceso round-robin:" << endl;
+    cout << "Simulacion de proceso round-robin:" << endl;
 
     for (int tiempo = 0; tiempo < tiempoTotal; tiempo += quantum)
     {
