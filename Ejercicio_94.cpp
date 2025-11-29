@@ -1,0 +1,1 @@
+/*Eliminar K-ésimo elemento continuamente (problema de José)*/

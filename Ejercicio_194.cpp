@@ -1,0 +1,1 @@
+//HashMap para cache simple

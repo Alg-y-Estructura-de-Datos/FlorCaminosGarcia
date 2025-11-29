@@ -1,0 +1,1 @@
+/*Reorganizar lista: L0→Ln→L1→Ln-1...*/

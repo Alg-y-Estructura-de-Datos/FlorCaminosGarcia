@@ -1,0 +1,1 @@
+/*Pila que guarda historial de operaciones*/

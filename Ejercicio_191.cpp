@@ -1,0 +1,1 @@
+//Recuperar valor después de colisión

@@ -1,0 +1,1 @@
+/*Convertir lista doble a lista simple*/

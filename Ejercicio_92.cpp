@@ -1,0 +1,1 @@
+/*Encontrar punto de inicio de ciclo*/

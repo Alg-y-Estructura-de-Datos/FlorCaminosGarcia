@@ -1,0 +1,1 @@
+/*Calcular promedio móvil*/

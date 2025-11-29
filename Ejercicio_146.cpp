@@ -1,0 +1,1 @@
+/*Navegador Web: Lista doble para historial (adelante/atrás)*/

@@ -1,0 +1,1 @@
+/*Lista con compresión de datos*/

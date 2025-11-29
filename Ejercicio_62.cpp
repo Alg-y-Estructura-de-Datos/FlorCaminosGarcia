@@ -1,0 +1,1 @@
+/*Eliminar elementos en posiciones pares*/

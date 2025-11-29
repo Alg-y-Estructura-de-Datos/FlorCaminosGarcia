@@ -24,9 +24,9 @@ public:
         return siguiente;
     }
 
-    void setSiguiente(Nodo<T> *siguiente)
+    void setSiguiente(Nodo<T> *siguientePtr)
     {
-        this->siguiente = siguiente;
+        this->siguiente = siguientePtr;
     }
 };
 

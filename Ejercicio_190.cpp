@@ -1,0 +1,1 @@
+//Manejar colisiones simples

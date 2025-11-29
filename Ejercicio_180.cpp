@@ -1,0 +1,1 @@
+//Verificar si HashMap está vacío

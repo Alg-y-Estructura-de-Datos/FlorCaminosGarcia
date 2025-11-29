@@ -1,0 +1,1 @@
+/*Verificar si lista es palíndromo usando pila*/

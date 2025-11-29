@@ -1,0 +1,1 @@
+/*Comprimir lista ejecutando longitud*/

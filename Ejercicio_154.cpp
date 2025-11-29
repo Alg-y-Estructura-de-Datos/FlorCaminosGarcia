@@ -1,0 +1,1 @@
+/*Red Social: Lista para lista de amigos*/

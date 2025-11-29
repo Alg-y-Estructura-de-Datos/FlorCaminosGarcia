@@ -1,0 +1,1 @@
+//Crear HashMap con función hash personalizada
