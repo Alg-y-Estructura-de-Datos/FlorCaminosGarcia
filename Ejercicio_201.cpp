@@ -1,7 +1,5 @@
 /*Encontrar intersección de dos arrays
 
-Encontrar primer carácter no repetido
-
 Verificar si dos strings son permutaciones
 
 Contar ocurrencias de cada palabra en texto
